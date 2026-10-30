@@ -9,7 +9,6 @@
 <body>
 
   <header>
-
     <!-- Franja de arriba -->
     <div class="top-bar"></div>
 
@@ -21,22 +20,52 @@
 
     <!-- Barra de navegación -->
     <nav class="nav-bar">
-      
-        <a href="#inicio">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#contacto">Contacto</a>
-     
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </header>
-<main>
-    <div class="tarjeta">
+
+  <main>
+    <div class="contenedor-principal">
+      <!-- Tarjeta principal de Bienvenidos arriba -->
+      <div class="tarjeta">
         <h2>Bienvenidos</h2>
         <p>Esta es una sección dentro del componente Main. Cada parte de la página es un componente independiente</p>
+      </div>
+
+      <!-- Creamos las 2 secciones -->
+      <div class="content-horizontal">
+        <section class="tarjeta-contenido">
+          <h2>Nuestros Servicios</h2>
+          <p>Explora las soluciones tecnológicas y de desarrollo web que ofrecemos para estructurar aplicaciones modernas.</p><br>
+          <img src="/img/images.jpg" class="img1">
+        </section>
+
+        <section class="tarjeta-contenido">
+          <h2>Misión y Visión</h2>
+          <p>Crear interfaces limpias, adaptables y funcionales aplicando las mejores prácticas de maquetación web.</p><br><br>
+          <img src="./img/vision.jpg" class="img2">
+        </section>
+
+        <!-- Creamos el aside-->
+        <aside class="sidebar">
+          <h3>Enlaces Rápidos</h3>
+            <a href="#">Documentación</a>
+            <a href="#">Tutoriales</a>
+            <a href="#">Soporte</a>
+            <br>
+             <img src="./img/rapidos.avif" class="img3">
+        </aside>
+      </div>
+
     </div>
-</main>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Hecho por Nasly Anaya | ADSO SENA</p>
+  </footer>
+
 </body>
-<footer>
-    <p>&copy; 2026 -Hecho por Nasly Anaya | ADSO SENA</p>
-</footer>
 </html>

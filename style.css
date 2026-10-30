@@ -4,14 +4,15 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* parte de arriba */
+
+/* Parte de arriba */
 .top-bar {
   background-color: #1e222a;
   height: 6px;
   width: 100%;
 }
 
-/* parte principal */
+/* Parte principal */
 .header-content {
   background-color: #2b9909;
   color: #ffffff;
@@ -42,7 +43,6 @@
   gap: 36px;
 }
 
-
 .nav-bar a {
   color: #ffffff;
   text-decoration: none;
@@ -52,51 +52,139 @@
 }
 
 .nav-bar a:hover {
- background-color: #2b9909;
-text-align: center;
-border-radius: 5px;
-border: #f5f5f5 solid 2px;
-padding: 2px;
-height: 24px;
-color: aliceblue;
-
-
+  background-color: #2b9909;
+  text-align: center;
+  border-radius: 5px;
+  border: #f5f5f5 solid 2px;
+  padding: 2px;
+  height: 24px;
+  color: aliceblue;
 }
 
-/* PARTE DEL MAIN*/
+/* PARTE DEL MAIN */
 main {
   display: flex;
-  justify-content: center; /* Centra la tarjeta horizontalmente */
+  justify-content: center;
   padding: 40px 20px;
   background-color: #f5f5f5;
 }
 
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Tarjeta superior Bienvenidos */
 .tarjeta {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
   width: 100%;
-  
+  text-align: center;
 }
 
-.tarjeta h2{
-    color: #2b9909;
-    font-family: Arial, Helvetica, sans-serif;
-   padding-bottom: 20px;
+.tarjeta h2 {
+  color: #2b9909;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+/* Contenedor horizontal de las 3 columnas */
+.content-horizontal {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Estilo para las tarjetas inferiores */
+.tarjeta-contenido {
+  background-color: #ececec;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1; /* Distribuye el mismo ancho en las 3 columnas */
+}
+
+.tarjeta-contenido h2 {
+  color: #2b9909;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.tarjeta-contenido p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.img1{
+    width: 150px;
+    height: 100px;
+    border-radius: 18px;
+
+}
+
+
+.img2{
+    width: 150px;
+    height: 100px;
+    border-radius: 18px;
+ 
+}
+
+.img3{
+    width: 150px;
+    height: 100px;
+    border-radius: 18px;
+}
+
+
+
+/* Estilos del Aside */
+.sidebar {
+  background-color: #eeeeee;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Mismo tamaño proporcional que las tarjetas adyacentes */
+  text-align: center;
+  line-height: 1.5;
+
    
 }
 
-footer{
-    background-color: #212121;
-    padding: 20px;
-    color: rgb(149, 151, 152);
-    text-align: center;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 0.9rem;
+.sidebar h3 {
+  color: #212121;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 
 
+.sidebar a {
+  color: #2b9909;
+  text-decoration: none;
+  font-size: 14px;  
+  flex-direction: column;
+  display: flex;
+ 
+}
 
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #212121;
+  padding: 20px;
+  color: rgb(149, 151, 152);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
