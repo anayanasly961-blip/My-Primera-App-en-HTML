@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* parte de arriba */
+.top-bar {
+  background-color: #1e222a;
+  height: 6px;
+  width: 100%;
+}
+
+/* parte principal */
+.header-content {
+  background-color: #2b9909;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 16px 20px 16px;
+}
+
+.header-content h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.header-content p {
+  font-size: 14px;
+  font-weight: normal;
+  opacity: 0.95;
+}
+
+/* Barra de navegación oscura */
+.nav-bar {
+  background-color: #212121;
+  padding: 12px 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+
+.nav-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  transition: opacity 0.2s ease;
+}
+
+.nav-bar a:hover {
+ background-color: #2b9909;
+text-align: center;
+border-radius: 5px;
+border: #f5f5f5 solid 2px;
+padding: 2px;
+height: 24px;
+color: aliceblue;
+
+
+}
+
+/* PARTE DEL MAIN*/
+main {
+  display: flex;
+  justify-content: center; /* Centra la tarjeta horizontalmente */
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  
+}
+
+.tarjeta h2{
+    color: #2b9909;
+    font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 20px;
+   
+}
+
+footer{
+    background-color: #212121;
+    padding: 20px;
+    color: rgb(149, 151, 152);
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.9rem;
+}
+
+
+
+
