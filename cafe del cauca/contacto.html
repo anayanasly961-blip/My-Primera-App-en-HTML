@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Café del Cauca</title>
+  <!-- Vinculamos el mismo archivo CSS independiente -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="container">
+    <section id="contacto">
+      
+      <!-- Encabezado -->
+      <h2>Ponte en Contacto</h2>
+      <p class="intro">
+        ¿Tienes dudas, quieres hacer un pedido especial o te gustaría distribuir nuestro café? Déjanos un mensaje y te responderemos al aroma de una buena taza.
+      </p>
+
+      <div class="grid-contacto">
+        
+        <!-- Formulario de Contacto -->
+        <article class="card-formulario">
+          <h3>Envíanos un mensaje</h3>
+
+          <form class="formulario-cafe">
+            <div class="grupo-input">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" name="nombre" placeholder="Tu nombre" required>
+            </div>
+
+            <div class="grupo-input">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" name="correo" placeholder="tu@correo.com" required>
+            </div>
+
+            <div class="grupo-input">
+              <label>¿En qué podemos ayudarte?</label>
+              <select id="asunto" name="asunto">
+                <option value="compras">Comprar café en grano/molido</option>
+                <option value="mayorista">Ventas al por mayor / Cafeterías</option>
+                <option value="visitas">Visitas a la finca cafetera</option>
+                <option value="otros">Otras consultas</option>
+              </select>
+            </div>
+
+            <div class="grupo-input">
+              <label for="mensaje">Tu mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-cafe-enviar">Enviar Mensaje</button>
+          </form>
+        </article>
+
+        <!-- Información de Ubicación / Datos útiles -->
+        <article class="contacto-lateral">
+          <h3>Nuestra Casa Cafetera</h3>
+          <p>Puedes visitarnos o escribirnos directamente a nuestros canales oficiales:</p>
+          
+          <ul class="lista-contacto">
+            <li><strong>Ubicación:</strong> Popayán, Cauca, Colombia</li>
+            <li><strong>Teléfono / WhatsApp:</strong> +57 300 123 4567</li>
+            <li><strong>Email:</strong> <em>info@cafedelcauca.com</em></li>
+            <li><strong>Horario de atención:</strong> Lunes a Sábado: 8:00 AM - 6:00 PM</li>
+          </ul>
+        
+        </article>
+
+      </div>
+     <a href="index.html" class="btn-volver">Volver al inicio</a>
+          
+    </section>
+  </main>
+</body>
+</html>
